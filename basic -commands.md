@@ -1,19 +1,19 @@
 ## Some basic Linux commands
 
 ### man
-Displays the manual page
+Display the manual page
 ```bash
 man ls
 ```
 
 ### pwd
-Displays the present working directory
+Display the present working directory
 ```bash
 pwd
 ```
 
 ### cd
-Changes directory
+Change directory
 ```bash
 cd someDirectory
 cd ..
@@ -45,4 +45,22 @@ cat hello.txt
 cat > hello.txt
     write something here
 CTRL+D / CTRL+C
+```
+
+### mkdir
+Create a directory
+```bash
+mkdir someDirectory
+```
+
+### cp
+Copy the file
+```bash
+cp first.txt second.txt
+```
+
+### mv
+Move the file somewhere else
+```bash
+mv first.txt /destinationFolder/
 ```
